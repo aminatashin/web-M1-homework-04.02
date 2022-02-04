@@ -37,19 +37,23 @@ console.log(arr[9])
 
 header(26)
 
-let newArr 
+let newArr = []
 
-//for (let i= 0 ; i< 101 ; i++){
+for (let i= 0 ; i< 101 ; i++){
   
-   // newArr.push(i)
+ newArr.push(i)
 
     
- // console.log(arr)
+ console.log(newArr)
     
-    
+}
 
 
-
+let any = function(a,b){
+    if(a.length > b.length){
+        return a
+    }
+}
 
 
 
@@ -80,8 +84,8 @@ const tdInside = function(){
 
 let insideVariable = document.querySelectorAll('td')
 
-for (let allTd of tdtag){
-    console.log(allTd)
+for (let allTd of insideVariable){
+    console.log(allTd.innerText)
 }
 
 }
@@ -96,7 +100,7 @@ header(36)
 
 let tableChange = function() {
     let tableAccess = document.getElementById('table')
-    
+
 }
 
 
